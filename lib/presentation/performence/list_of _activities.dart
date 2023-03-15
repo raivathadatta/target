@@ -45,7 +45,7 @@ class _ListOfActivitiesState extends State<ListOfActivities> {
               height: 40.h,
               width: 40.w,
               child: Image.asset(
-                ImageLocations.bacary,
+                ImageLocations.house,
               ),
             ),
             Column(

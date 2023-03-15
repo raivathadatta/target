@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:spice_tracker/presentation/performence/alertstab.dart';
 
-class AlertLestItem extends StatelessWidget {
+class AlertListItem extends StatelessWidget {
   final String imageLocation;
-  const AlertLestItem({Key? key, required this.imageLocation})
+  const AlertListItem({Key? key, required this.imageLocation})
       : super(key: key);
 
   @override

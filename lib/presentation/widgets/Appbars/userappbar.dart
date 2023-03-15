@@ -37,7 +37,7 @@ PreferredSize UserAppBar(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset(
-                    ImageLocations.bacary,
+                    ImageLocations.house,
                     height: 30,
                     width: 30,
                   ),

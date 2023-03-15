@@ -34,9 +34,9 @@ class AlertsTab extends StatelessWidget {
                 SizedBox(
                   height: 10.h,
                 ),
-                AlertLestItem(imageLocation: ImageLocations.navigation),
-                AlertLestItem(imageLocation: ImageLocations.navigation),
-                AlertLestItem(imageLocation: ImageLocations.navigation),
+                AlertListItem(imageLocation: ImageLocations.navigation),
+                AlertListItem(imageLocation: ImageLocations.navigation),
+                AlertListItem(imageLocation: ImageLocations.navigation),
                 SizedBox(
                   height: 10.h,
                 ),
@@ -51,10 +51,10 @@ class AlertsTab extends StatelessWidget {
                 SizedBox(
                   height: 10.h,
                 ),
-                AlertLestItem(imageLocation: ImageLocations.bacary),
-                AlertLestItem(imageLocation: ImageLocations.bacary),
-                AlertLestItem(imageLocation: ImageLocations.bacary),
-                AlertLestItem(imageLocation: ImageLocations.bacary),
+                AlertListItem(imageLocation: ImageLocations.house),
+                AlertListItem(imageLocation: ImageLocations.house),
+                AlertListItem(imageLocation: ImageLocations.house),
+                AlertListItem(imageLocation: ImageLocations.house),
               ],
             ),
           ),

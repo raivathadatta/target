@@ -27,7 +27,7 @@ class TargetItem extends StatelessWidget {
               Row(
                 children: [
                   Image.asset(
-                    ImageLocations.bacary,
+                    ImageLocations.house,
                     height: 36.h,
                     width: 36.h,
                   ),

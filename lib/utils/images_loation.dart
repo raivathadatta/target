@@ -1,7 +1,7 @@
 class ImageLocations {
   static const String _baseLocation = "assets/png";
   static const String navigation = "${_baseLocation}/navigater.png";
-  static const String bacary = "${_baseLocation}/bakery.png";
+  static const String house = "${_baseLocation}/bakery.png";
   static const String call = "${_baseLocation}/material-call.png";
   static const String info = "${_baseLocation}/info_fill.png";
   static const String check_circle = "${_baseLocation}/check_circle.png";
