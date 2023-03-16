@@ -3,9 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:spice_tracker/presentation/widgets/container/persentageraond.dart';
 import 'package:spice_tracker/presentation/widgets/container/title_subtitle_container.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
-
-import '../../../utils/app_colors.dart';
-import '../../../utils/images_loation.dart';
+import 'package:spice_tracker/core/app_colors.dart';
+import 'package:spice_tracker/core/images_location.dart';
 
 class PerformanceEngagementItem extends StatelessWidget {
   final String title;
@@ -66,11 +65,12 @@ class PerformanceEngagementItem extends StatelessWidget {
               children: [
                 // number with text item
 
-                TitleSubTitleItem(headTitle: "4", subtitle: "For the day"),
-                TitleSubTitleItem(headTitle: "45", subtitle: "Month till date"),
-                TitleSubTitleItem(
+                TitleSubTitleContainer(headTitle: "4", subtitle: "For the day"),
+                TitleSubTitleContainer(
+                    headTitle: "45", subtitle: "Month till date"),
+                TitleSubTitleContainer(
                     headTitle: "35", subtitle: "Last month till date"),
-                TitleSubTitleItem(headTitle: "30", subtitle: "Last month"),
+                TitleSubTitleContainer(headTitle: "30", subtitle: "Last month"),
               ],
             ),
             SizedBox(

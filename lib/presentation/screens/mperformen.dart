@@ -4,13 +4,14 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:spice_tracker/data/dependency_injection/inject.dart';
-import 'package:spice_tracker/presentation/performence/notification_alerts_screen.dart';
-import 'package:spice_tracker/presentation/performence/retention.dart';
+import 'package:spice_tracker/presentation/screens/retention.dart';
 
 import '../../controller/performence_controller.dart';
-import '../../utils/app_colors.dart';
-import '../../utils/images_loation.dart';
-import '../widgets/appbar_bottom.dart';
+
+import '../../core/app_colors.dart';
+import '../../core/images_location.dart';
+import '../widgets/tabbar/m_tab_bar.dart';
+import 'notification_alerts_screen.dart';
 
 class Performance extends StatefulWidget {
   const Performance({Key? key}) : super(key: key);

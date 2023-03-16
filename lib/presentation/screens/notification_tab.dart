@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:spice_tracker/utils/app_colors.dart';
-
-import '../../utils/images_loation.dart';
+import '../../core/app_colors.dart';
+import '../../core/images_location.dart';
 import '../widgets/listitems/alert_list_item.dart';
 
-class AlertsTab extends StatelessWidget {
-  const AlertsTab({Key? key}) : super(key: key);
+class NotificationTab extends StatelessWidget {
+  const NotificationTab({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -35,8 +34,6 @@ class AlertsTab extends StatelessWidget {
                   height: 10.h,
                 ),
                 AlertListItem(imageLocation: ImageLocations.navigation),
-                AlertListItem(imageLocation: ImageLocations.navigation),
-                AlertListItem(imageLocation: ImageLocations.navigation),
                 SizedBox(
                   height: 10.h,
                 ),
@@ -51,9 +48,6 @@ class AlertsTab extends StatelessWidget {
                 SizedBox(
                   height: 10.h,
                 ),
-                AlertListItem(imageLocation: ImageLocations.house),
-                AlertListItem(imageLocation: ImageLocations.house),
-                AlertListItem(imageLocation: ImageLocations.house),
                 AlertListItem(imageLocation: ImageLocations.house),
               ],
             ),

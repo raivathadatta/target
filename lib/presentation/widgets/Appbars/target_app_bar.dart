@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../../utils/app_colors.dart';
-import '../../performence/notification_alerts_screen.dart';
+import 'package:spice_tracker/core/app_colors.dart';
+import '../../screens/notification_alerts_screen.dart';
 
 AppBar TargetAppBar() => AppBar(
       shadowColor: AppColors.SHADOW,

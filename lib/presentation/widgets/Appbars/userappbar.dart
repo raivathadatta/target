@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:spice_tracker/utils/images_loation.dart';
-
-import '../../../utils/app_colors.dart';
+import 'package:spice_tracker/core/images_location.dart';
+import 'package:spice_tracker/core/app_colors.dart';
 
 PreferredSize UserAppBar(
     {required String title,

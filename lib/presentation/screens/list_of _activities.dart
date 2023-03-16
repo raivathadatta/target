@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:spice_tracker/data/dependency_injection/inject.dart';
-import 'package:spice_tracker/utils/app_colors.dart';
+import '../../core/app_colors.dart';
+import '../../core/images_location.dart';
 
 import '../../controller/list_actions_controller.dart';
-import '../../utils/images_loation.dart';
 
 import '../widgets/grid/gridimage.dart';
 import '../widgets/listitems/list_actions_list_item.dart';

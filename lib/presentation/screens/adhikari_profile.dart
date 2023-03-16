@@ -5,8 +5,8 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:spice_tracker/controller/adhikari_profile_controller.dart';
 import 'package:spice_tracker/data/dependency_injection/inject.dart';
 
-import '../../utils/app_colors.dart';
-import '../../utils/images_loation.dart';
+import '../../core/app_colors.dart';
+import '../../core/images_location.dart';
 import '../widgets/Appbars/userappbar.dart';
 import '../widgets/container/coloverGtv.dart';
 import '../widgets/container/headersubvaluecontainer.dart';
@@ -387,7 +387,7 @@ class _AdhikariProfileState extends State<AdhikariProfile> {
               ),
               LabelWithBulb(
                 heading: "Recommendation",
-                ischurned: false,
+                isChurned: false,
                 label: "Branch not working on AEPS or MATM",
               ),
             ]),

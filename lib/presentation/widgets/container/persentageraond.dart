@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../../../utils/app_colors.dart';
+import 'package:spice_tracker/core/images_location.dart';
+import 'package:spice_tracker/core/app_colors.dart';
 
 class PercentageRounded extends StatefulWidget {
   var percent;

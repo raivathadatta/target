@@ -7,7 +7,8 @@ import 'dart:ui' as ui;
 
 import 'package:injectable/injectable.dart';
 
-import '../utils/images_loation.dart';
+import 'package:spice_tracker/core/app_colors.dart';
+import 'package:spice_tracker/core/images_location.dart';
 
 @injectable
 class TargetController extends GetxController {

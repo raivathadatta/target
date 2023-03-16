@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:spice_tracker/core/images_location.dart';
+import 'package:spice_tracker/core/app_colors.dart';
 
-import '../../../utils/app_colors.dart';
-
-class TitleSubTitleItem extends StatelessWidget {
+class TitleSubTitleContainer extends StatelessWidget {
   final String headTitle;
   final String subtitle;
-  const TitleSubTitleItem(
+  const TitleSubTitleContainer(
       {required this.headTitle, required this.subtitle, Key? key})
       : super(key: key);
 

@@ -2,17 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:quickalert/quickalert.dart';
-import 'package:spice_tracker/presentation/performence/target.dart';
-import 'package:spice_tracker/presentation/performence/adhikari_profile.dart';
-import 'package:spice_tracker/presentation/performence/list_of%20_activities.dart';
-import 'package:spice_tracker/presentation/performence/mperformen.dart';
-import 'package:spice_tracker/presentation/performence/notification_alerts_screen.dart';
-import 'package:spice_tracker/presentation/widgets/bottomsheets/bottomsheet.dart';
-import 'package:spice_tracker/presentation/widgets/dialog/are_you_shur_dialog.dart';
-import 'package:spice_tracker/utils/app_colors.dart';
-import 'package:spice_tracker/utils/images_loation.dart';
+import 'package:spice_tracker/presentation/screens/adhikari_profile.dart';
+import 'package:spice_tracker/presentation/screens/list_of%20_activities.dart';
+import 'package:spice_tracker/presentation/screens/mperformen.dart';
+import 'package:spice_tracker/presentation/screens/notification_alerts_screen.dart';
+import 'package:spice_tracker/presentation/screens/target.dart';
 
-import 'data/dependency_injection/inject.dart';
+import 'package:spice_tracker/presentation/widgets/bottomsheets/bottomsheet.dart';
+import 'package:spice_tracker/presentation/widgets/dialog/are_you_shure_dialog.dart';
+import '../../core/app_colors.dart';
+import '../../core/images_location.dart';
+
+import '../../data/dependency_injection/inject.dart';
 
 // import 'package:intl/intl.dart';
 void main() {

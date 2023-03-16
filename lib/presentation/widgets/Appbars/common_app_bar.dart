@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../../utils/app_colors.dart';
+import 'package:spice_tracker/core/app_colors.dart';
 
 AppBar CommonAppBar(
     {required String title,

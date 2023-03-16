@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:spice_tracker/presentation/widgets/appbar_bottom.dart';
-
-import '../../utils/app_colors.dart';
+import 'package:spice_tracker/presentation/widgets/tabbar/m_tab_bar.dart';
+import '../../core/app_colors.dart';
+import '../../core/images_location.dart';
 import 'alertstab.dart';
 import 'notification_tab.dart';
 

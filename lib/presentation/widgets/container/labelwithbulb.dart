@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../../utils/app_colors.dart';
-import '../../../utils/images_loation.dart';
+import 'package:spice_tracker/core/images_location.dart';
+import 'package:spice_tracker/core/app_colors.dart';
 
 class LabelWithBulb extends StatefulWidget {
-  var ischurned;
+  var isChurned;
   final String heading;
   final String label;
   var image;
 
   LabelWithBulb(
       {Key? key,
-      this.ischurned = false,
+      this.isChurned = false,
       this.image,
       required this.label,
       required this.heading})
@@ -27,7 +26,7 @@ class _LabelWithBulbState extends State<LabelWithBulb> {
   Widget build(BuildContext context) {
     return Container(
         decoration: BoxDecoration(
-            color: widget.ischurned == false
+            color: widget.isChurned == false
                 ? AppColors.OFF_WHITE
                 : AppColors.GLOW_RED,
             borderRadius: BorderRadius.all(Radius.circular(5))),
@@ -59,7 +58,7 @@ class _LabelWithBulbState extends State<LabelWithBulb> {
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: widget.ischurned == false
+                    color: widget.isChurned == false
                         ? AppColors.BLACK_NOTIFICATION
                         : AppColors.RED,
                     fontSize: 11.sp),

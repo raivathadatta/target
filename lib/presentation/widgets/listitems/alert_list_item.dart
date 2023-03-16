@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:spice_tracker/presentation/performence/alertstab.dart';
 
 class AlertListItem extends StatelessWidget {
   final String imageLocation;

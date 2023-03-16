@@ -11,11 +11,12 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:spice_tracker/controller/target_controller.dart';
 import 'package:spice_tracker/data/dependency_injection/inject.dart';
-import 'package:spice_tracker/utils/app_colors.dart';
 
-import '../../utils/images_loation.dart';
+import '../../core/app_colors.dart';
+import '../../core/images_location.dart';
+
 import '../widgets/Appbars/target_app_bar.dart';
-import '../widgets/container/target_droup_down.dart';
+import '../widgets/buttons/target_droup_down.dart';
 import '../widgets/listitems/target_item.dart';
 import 'dart:ui' as ui;
 
